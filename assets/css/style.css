@@ -670,6 +670,11 @@ input, textarea {
   font-size: 28px;
 }
 
+.cs-font_30_2 {
+  font-size: 28px;
+  text-align: justify;
+}
+
 .cs-font_38 {
   font-size: 38px;
 }
