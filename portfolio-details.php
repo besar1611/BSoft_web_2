@@ -40,16 +40,16 @@
                   <a href="index.php">Home</a>
                 </li>
                 <li>
-                  <a href="about.html">About</a>
+                  <a href="about.php">About</a>
                 </li>
                 <li>
-                  <a href="service.html">Services</a>
+                  <a href="service.php">Services</a>
                 </li>
                 <li>
                   <a href="portfolio.php">Portfolio</a>
                 </li>
                 <li>
-                  <a href="contact.html">Contact</a>
+                  <a href="contact.php">Contact</a>
                 </li>
               </ul>
             </div>

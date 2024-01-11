@@ -40,16 +40,16 @@
                   <a href="index.php">Home</a>
                 </li>
                 <li>
-                  <a href="about.html">About</a>
+                  <a href="about.php">About</a>
                 </li>
                 <li>
-                  <a href="service.html">Services</a>
+                  <a href="service.php">Services</a>
                 </li>
                 <li>
                   <a href="portfolio.php">Portfolio</a>
                 </li>
                 <li>
-                  <a href="contact.html">Contact</a>
+                  <a href="contact.php">Contact</a>
                 </li>
               </ul>
             </div>
@@ -160,7 +160,7 @@
           Blood Line </h1>
         <div class="cs-hero_info">
           <div>
-            <a href="contact.html" class="cs-text_btn">
+            <a href="contact.php" class="cs-text_btn">
               <span>Contact us</span>
               <svg width="26" height="12" viewBox="0 0 26 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -267,7 +267,7 @@
             <h3 class="cs-section_subtitle">What Can We Do</h3>
             <h2 class="cs-section_title">Services we can help you with</h2>
             <div class="cs-height_45 cs-height_lg_20"></div>
-            <a href="service.html" class="cs-text_btn wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">
+            <a href="service.php" class="cs-text_btn wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">
               <span>See All Services</span>
               <svg width="26" height="12" viewBox="0 0 26 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -283,7 +283,7 @@
             <div class="col-lg-3 col-sm-6 cs-hidden_mobile"></div>
             <div class="col-lg-3 col-sm-6">
               <div class="cs-hobble">
-                <a href="mobile_development.html" class="cs-card cs-style1 cs-hover_layer1">
+                <a href="mobile_development.php" class="cs-card cs-style1 cs-hover_layer1">
                   <img src="assets/img/service_1.jpeg" alt="Service">
                   <div class="cs-card_overlay"></div>
                   <div class="cs-card_info">
@@ -343,19 +343,19 @@
     <div class="cs-height_65 cs-height_lg_45"></div>
     <div class="cs-moving_text_wrap cs-type1 cs-bold cs-primary_font">
       <div class="cs-moving_text_in">
-        <div class="cs-moving_text"><a href="service.html">Design</a>-<a href="service.html">Marketing</a>-<a
-            href="service.html">Branding</a>-</div>
-        <div class="cs-moving_text"><a href="service.html">Design</a>-<a href="service.html">Marketing</a>-<a
-            href="service.html">Branding</a>-</div>
+        <div class="cs-moving_text"><a href="service.php">Design</a>-<a href="service.php">Marketing</a>-<a
+            href="service.php">Branding</a>-</div>
+        <div class="cs-moving_text"><a href="service.php">Design</a>-<a href="service.php">Marketing</a>-<a
+            href="service.php">Branding</a>-</div>
       </div>
     </div>
     <div class="cs-height_30 cs-height_lg_10"></div>
     <div class="cs-moving_text_wrap cs-type1 cs-bold cs-primary_font">
       <div class="cs-moving_text_in">
-        <div class="cs-moving_text cs-reverse_animation"><a href="service.html">Desktop</a>-<a
-            href="service.html">Web</a>-<a href="service.html">Mobile Apps</a>-</div>
-        <div class="cs-moving_text cs-reverse_animation"><a href="service.html">Desktop</a>-<a
-            href="service.html">Web</a>-<a href="service.html">Mobile Apps</a>-</div>
+        <div class="cs-moving_text cs-reverse_animation"><a href="service.php">Desktop</a>-<a
+            href="service.php">Web</a>-<a href="service.php">Mobile Apps</a>-</div>
+        <div class="cs-moving_text cs-reverse_animation"><a href="service.php">Desktop</a>-<a
+            href="service.php">Web</a>-<a href="service.php">Mobile Apps</a>-</div>
       </div>
     </div>
     <div class="cs-height_150 cs-height_lg_50"></div>
@@ -711,7 +711,7 @@
         <div class="cs-cta_in">
           <h2 class="cs-cta_title cs-semi_bold cs-m0"> Let’s disscuse make <br>something <i>cool</i> together </h2>
           <div class="cs-height_70 cs-height_lg_30"></div>
-          <a href="contact.html" class="cs-text_btn wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+          <a href="contact.php" class="cs-text_btn wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
             <span>Apply For Meeting</span>
             <svg width="26" height="12" viewBox="0 0 26 12" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path

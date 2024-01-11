@@ -40,16 +40,16 @@
                   <a href="index.php">Home</a>
                 </li>
                 <li>
-                  <a href="about.html">About</a>
+                  <a href="about.php">About</a>
                 </li>
                 <li>
-                  <a href="service.html">Services</a>
+                  <a href="service.php">Services</a>
                 </li>
                 <li>
                   <a href="portfolio.php">Portfolio</a>
                 </li>
                 <li>
-                  <a href="contact.html">Contact</a>
+                  <a href="contact.php">Contact</a>
                 </li>
               </ul>
             </div>
@@ -518,7 +518,7 @@
         <div class="cs-cta_in">
           <h2 class="cs-cta_title cs-semi_bold cs-m0">Let’s disscuse make <br>something <i>cool</i> together </h2>
           <div class="cs-height_70 cs-height_lg_30"></div>
-          <a href="contact.html" class="cs-text_btn">
+          <a href="contact.php" class="cs-text_btn">
             <span>Apply For Meeting</span>
             <svg width="26" height="12" viewBox="0 0 26 12" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
