@@ -187,7 +187,7 @@
   <div class="cs-height_150 cs-height_lg_80"></div>
   <div class="container">
     <div class="cs-portfolio_details">
-      <img src="<?php echo $row['header_image']; ?>" alt="Image" class="cs-radius_15 w-100">
+      <img src="admin/<?php echo $row['header_image']; ?>" alt="Image" class="cs-radius_15 w-100">
       <div class="cs-height_90 cs-height_lg_40"></div>
       <div class="row">
         <div class="col-lg-6">
@@ -253,10 +253,10 @@
 
         // Output HTML structure for each portfolio item
         echo '      <div class="cs-isotop_item">';
-        echo '        <a href="' . $imageSrc . '" class="cs-portfolio cs-style1 cs-lightbox_item cs-size1 cs-type2">';
+        echo '        <a href="admin/' . $imageSrc . '" class="cs-portfolio cs-style1 cs-lightbox_item cs-size1 cs-type2">';
         echo '          <div class="cs-portfolio_hover"></div>';
         echo '          <span class="cs-plus"></span>';
-        echo '          <div class="cs-portfolio_bg cs-bg" data-src="' . $imageSrc . '"></div>';
+        echo '          <div class="cs-portfolio_bg cs-bg" data-src="admin/' . $imageSrc . '"></div>';
         echo '          <div class="cs-portfolio_info">';
         echo '            <div class="cs-portfolio_info_bg cs-accent_bg"></div>';
         echo '            <div class="cs-portfolio_subtitle">View Large</div>';
