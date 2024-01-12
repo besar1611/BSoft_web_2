@@ -754,7 +754,7 @@ hr {
 
 .cs-accent_color,
 .cs-accent_color_hover:hover {
-  color: #FF4A17;
+  color: #ff1717;
 }
 
 .cs-white_bg {
@@ -832,47 +832,47 @@ hr {
 
 .cs-accent_bg_30,
 .cs-accent_bg_30_hover:hover {
-  background-color: rgba(255, 74, 23, 0.3);
+  background-color: rgba(255, 23, 23, 0.3);
 }
 
 .cs-accent_bg_35,
 .cs-accent_bg_35_hover:hover {
-  background-color: rgba(255, 74, 23, 0.35);
+  background-color: rgba(255, 23, 23, 0.35);
 }
 
 .cs-accent_bg_40,
 .cs-accent_bg_40_hover:hover {
-  background-color: rgba(255, 74, 23, 0.4);
+  background-color: rgba(255, 23, 23, 0.4);
 }
 
 .cs-accent_bg_50,
 .cs-accent_bg_50_hover:hover {
-  background-color: rgba(255, 74, 23, 0.5);
+  background-color: rgba(255, 23, 23, 0.5);
 }
 
 .cs-accent_bg_60,
 .cs-accent_bg_60_hover:hover {
-  background-color: rgba(255, 74, 23, 0.6);
+  background-color: rgba(255, 23, 23, 0.6);
 }
 
 .cs-accent_bg_70,
 .cs-accent_bg_70_hover:hover {
-  background-color: rgba(255, 74, 23, 0.7);
+  background-color: rgba(255, 31, 23, 0.7);
 }
 
 .cs-accent_bg_80,
 .cs-accent_bg_80_hover:hover {
-  background-color: rgba(255, 74, 23, 0.8);
+  background-color: rgba(255, 31, 23, 0.7);
 }
 
 .cs-accent_bg_90,
 .cs-accent_bg_90_hover:hover {
-  background-color: rgba(255, 74, 23, 0.9);
+  background-color: rgba(255, 23, 23, 0.7);
 }
 
 .cs-accent_bg,
 .cs-accent_bg_hover:hover {
-  background-color: #FF4A17;
+  background-color: #ff1717;
 }
 
 .cs-primary_bg,
@@ -3930,7 +3930,7 @@ label {
     transition: all 0.5s ease;
   }
   .cs-nav .cs-nav_list .cs-mega_wrapper a:hover img {
-    border-color: rgba(255, 74, 23, 0.6);
+    border-color: rgba(255, 23, 23, 0.6);
   }
   .cs-nav .cs-nav_list .cs-mega_wrapper > li {
     -webkit-box-flex: 1;
@@ -5122,7 +5122,7 @@ label {
   height: 626px;
   width: 626px;
   border-radius: 50%;
-  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 74, 23, 0.8) 0%, rgba(255, 74, 23, 0) 100%);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 23, 23, 0.8) 0%, rgba(255, 74, 23, 0) 100%);
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -5677,8 +5677,8 @@ label {
 .cs-iconbox.cs-style1 .cs-iconbox_icon {
   padding: 4px 10px;
   display: inline-block;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 74, 23, 0.3)), color-stop(95.61%, transparent));
-  background: linear-gradient(90deg, rgba(255, 74, 23, 0.3) 0%, transparent 95.61%);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 46, 23, 0.3)), color-stop(95.61%, transparent));
+  background: linear-gradient(90deg, rgba(255, 46, 23, 0.3) 0%, transparent 95.61%);
 }
 .cs-iconbox.cs-style1.cs-type1 .cs-iconbox_icon {
   padding: 0;
@@ -5907,8 +5907,8 @@ label {
   display: block;
 }
 .cs-card.cs-style1:hover {
-  -webkit-filter: drop-shadow(0px 0px 30px rgba(255, 74, 23, 0.5));
-          filter: drop-shadow(0px 0px 30px rgba(255, 74, 23, 0.5));
+  -webkit-filter: drop-shadow(0px 0px 30px rgba(255, 23, 23, 0.5));
+          filter: drop-shadow(0px 0px 30px rgba(255, 23, 23, 0.5));
 }
 .cs-card.cs-style1 img {
   width: 100%;
@@ -6729,8 +6729,8 @@ label {
   border-radius: 5px;
 }
 .cs-portfolio.cs-style1.cs-type2 .cs-portfolio_hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 74, 23, 0.7)), to(rgba(0, 0, 0, 0.8)));
-  background: linear-gradient(180deg, rgba(255, 74, 23, 0.7) 0%, rgba(0, 0, 0, 0.8) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 31, 23, 0.7)), to(rgba(0, 0, 0, 0.8)));
+  background: linear-gradient(180deg, rgba(255, 31, 23, 0.7) 0%, rgba(0, 0, 0, 0.8) 100%);
 }
 .cs-portfolio.cs-style1.cs-type2 .cs-portfolio_info_bg {
   display: none;

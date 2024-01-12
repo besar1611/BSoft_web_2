@@ -203,7 +203,7 @@
           echo '<div class="cs-isotop_item ' . $category . '">';
           echo '    <a href="portfolio-details.php?id=' . $id . '" class="cs-portfolio cs-style1 cs-type1">';
           echo '        <div class="cs-portfolio_hover"></div>';
-          echo '        <div class="cs-portfolio_bg cs-bg" data-src="' . $imageSrc . '"></div>';
+          echo '        <div class="cs-portfolio_bg cs-bg" data-src="admin/' . $imageSrc . '"></div>';
           echo '        <div class="cs-portfolio_info">';
           echo '            <div class="cs-portfolio_info_bg cs-accent_bg"></div>';
           echo '            <h2 class="cs-portfolio_title">' . $title . '</h2>';
