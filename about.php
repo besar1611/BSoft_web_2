@@ -323,7 +323,7 @@
                 </div>
                 <div class="cs-member_info">
                   <h2 class="cs-member_name">
-                    <a href="team-details.html">Besar Idrizi</a>
+                    <a href="https://besar.bsoft.mk" target="_blank">Besar Idrizi - CV</a>
                   </h2>
                   <div class="cs-member_designation">Founder & Software Developer</div>
                 </div>
@@ -369,7 +369,7 @@
                 </div>
                 <div class="cs-member_info">
                   <h2 class="cs-member_name">
-                    <a href="team-details.html">Sami Muradi</a>
+                    <a href="https://sami.bsoft.mk" target="_blank">Sami Muradi - CV</a>
                   </h2>
                   <div class="cs-member_designation">Software Developer</div>
                 </div>
@@ -401,7 +401,7 @@
                 </div>
                 <div class="cs-member_info">
                   <h2 class="cs-member_name">
-                    <a href="team-details.html">Semih Ibraimi</a>
+                    <a href="https://semih.bsoft.mk" target="_blank">Semih Ibraimi</a>
                   </h2>
                   <div class="cs-member_designation">Software Developer</div>
                 </div>
