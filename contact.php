@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Laralink">
+  <meta name="author" content="BSoft">
   <!-- Favicon Icon -->
   <link rel="icon" href="assets/img/favicon.png">
   <!-- Site Title -->
@@ -188,7 +188,7 @@
           <input type="hidden" name="access_key" value="6d7bc3fc-6190-43c5-8298-89ac5ef74321">
           <input type="checkbox" name="botcheck" style="display: none;">
           <!-- Optional: Can be type="hidden" or type="text" for subject -->
-          <input type="hidden" name="subject" value="Submission from Laralink Template">
+          <input type="hidden" name="subject" value="Submission from BSoft Template">
 
           <div class="col-sm-6">
             <label class="cs-primary_color">Full Name*</label>
