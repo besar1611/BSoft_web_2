@@ -389,7 +389,7 @@
         while ($row = $result->fetch_assoc()) {
           // Process the data as needed
           $title = $row['title'];
-          $imageSrc = $row['header_image'];
+          $imageSrc = $row['main_header_image'];
 
           // Output HTML structure for each portfolio item
           echo '        <div class="cs-slide">';
