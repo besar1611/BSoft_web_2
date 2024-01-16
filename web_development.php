@@ -146,7 +146,7 @@
   <div class="cs-page_heading cs-style1 cs-center text-center cs-bg" data-src="assets/img/service_hero_bg.jpeg">
     <div class="container">
       <div class="cs-page_heading_in">
-        <h1 class="cs-page_title cs-font_50 cs-white_color">Mobile Developments</h1>
+        <h1 class="cs-page_title cs-font_50 cs-white_color">Web Developments</h1>
         <ol class="breadcrumb text-uppercase">
           <li class="breadcrumb-item"><a href="index.php">Home</a></li>
           <li class="breadcrumb-item active">Service Details</li>
@@ -159,7 +159,7 @@
   <!-- Start Icon Box -->
   <div class="container">
     <div class="cs-section_heading cs-style1 text-center">
-      <h3 class="cs-section_subtitle">iOS & Android</h3>
+      <h3 class="cs-section_subtitle">Web Applications</h3>
       <h2 class="cs-section_title">Working process</h2>
     </div>
     <div class="cs-height_90 cs-height_lg_45"></div>
@@ -173,7 +173,7 @@
             </svg>              
           </div>
           <h2 class="cs-iconbox_title">Diagramming</h2>
-          <div class="cs-iconbox_subtitle">In the dynamic landscape of mobile app development, diagramming plays a pivotal role in conceptualizing, designing, and communicating the architecture and functionality of applications.</div>
+          <div class="cs-iconbox_subtitle">Diagramming is an essential aspect of web development that aids in visualizing the architecture, structure, and flow of a web application. This process involves creating various diagrams to represent different aspects of the development process.</div>
         </div>
         <div class="cs-height_30 cs-height_lg_35"></div>
       </div>
@@ -186,7 +186,7 @@
             </svg>                            
           </div>
           <h2 class="cs-iconbox_title">Prototyping</h2>
-          <div class="cs-iconbox_subtitle">Prototyping is a crucial phase in mobile app development, allowing teams to iterate on design concepts, gather feedback, and refine the user experience before the actual development begins.</div>
+          <div class="cs-iconbox_subtitle">Prototyping plays a crucial role in the web development process, allowing teams to create tangible representations of the user interface and functionality before the actual development begins.</div>
         </div>
         <div class="cs-height_30 cs-height_lg_35"></div>
       </div>
@@ -198,8 +198,8 @@
               <path d="M32 4L53.6506 41.5H10.3494L32 4Z" fill="#FF4A17"/>
             </svg>                            
           </div>
-          <h2 class="cs-iconbox_title">Finishing the app</h2>
-          <div class="cs-iconbox_subtitle">As your mobile app nears completion, it's crucial to focus on the finishing touches to ensure a seamless and polished end product.</div>
+          <h2 class="cs-iconbox_title">Finishing the web</h2>
+          <div class="cs-iconbox_subtitle">Finishing the web development process involves several important steps to ensure that the website is ready for deployment and meets all the necessary criteria for a successful launch.</div>
         </div>
         <div class="cs-height_30 cs-height_lg_35"></div>
       </div>
@@ -212,12 +212,12 @@
     <div class="row align-items-center">
       <div class="col-xl-5 col-lg-6">
         <div class="cs-radius_15 cs-shine_hover_1">
-          <img class="cs-radius_15 w-100" src="assets/img/flutter.jpg" alt="Service Image">
+          <img class="cs-radius_15 w-100" src="assets/img/webdev.jpg" alt="Service Image">
         </div>
         <div class="cs-height_0 cs-height_lg_40"></div>
       </div>
       <div class="col-lg-6 offset-xl-1">
-        <h2 class="cs-font_30_2 cs-m0">We specialize in crafting secure mobile apps with Flutter, leveraging its single-codebase efficiency. Our applications seamlessly integrate with robust APIs built using PHP, ensuring not only a visually stunning experience but also a secure and reliable foundation for seamless data transactions.</h2>
+        <h2 class="cs-font_30_2 cs-m0">We specialize in developing secure and efficient web applications that seamlessly integrate with robust APIs built using PHP. Our expertise lies in creating visually stunning user experiences while ensuring a secure and reliable foundation for seamless data transactions. Here are the key highlights of our web development services.</h2>
         <div class="cs-height_50 cs-height_lg_30"></div>
         <div class="row">
 
@@ -244,7 +244,7 @@
           <div class="cs-accordians cs-style1">
             <div class="cs-accordian active">
               <div class="cs-accordian_head">
-                <h2 class="cs-accordian_title">What is Flutter, and how does it contribute to mobile app development?</h2>
+                <h2 class="cs-accordian_title">What is web development?</h2>
                 <span class="cs-accordian_toggle cs-accent_color">
                   <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0L7.5 7.5L15 0H0Z" fill="currentColor"/>
@@ -252,12 +252,12 @@
                 </span>
               </div>
               <div class="cs-accordian_body">
-                <p>Flutter is an open-source UI software development toolkit created by Google. It is used to build natively compiled applications for mobile, web, and desktop from a single codebase. Flutter simplifies the development process by providing a consistent and expressive framework for building cross-platform apps with a rich set of pre-designed widgets.</p>
+                <p>Web development is the process of creating and maintaining websites or web applications. It involves designing, coding, and deploying web content that can be accessed through the internet.</p>
               </div>
             </div><!-- .cs-accordian -->
             <div class="cs-accordian">
               <div class="cs-accordian_head">
-                <h2 class="cs-accordian_title">How does PHP integrate with Flutter for mobile app development?</h2>
+                <h2 class="cs-accordian_title">What are the key technologies used in web development?</h2>
                 <span class="cs-accordian_toggle cs-accent_color">
                   <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0L7.5 7.5L15 0H0Z" fill="currentColor"/>
@@ -265,12 +265,12 @@
                 </span>
               </div>
               <div class="cs-accordian_body">
-                <p>PHP can be used as the backend server language to handle data storage, retrieval, and business logic for Flutter mobile apps. Flutter apps can communicate with PHP servers through HTTP requests (RESTful APIs) to fetch and send data. This separation allows for a clear distinction between the frontend (Flutter) and backend (PHP) components of the application.</p>
+                <p>Common technologies include HTML, CSS, and JavaScript for front-end development, while back-end development often involves languages like PHP, Python, Ruby, or Node.js. Databases such as MySQL, PostgreSQL, and MongoDB are also essential.</p>
               </div>
             </div><!-- .cs-accordian -->
             <div class="cs-accordian">
               <div class="cs-accordian_head">
-                <h2 class="cs-accordian_title">What are the key advantages of using Flutter for mobile app development?</h2>
+                <h2 class="cs-accordian_title">What is the difference between front-end and back-end development?</h2>
                 <span class="cs-accordian_toggle cs-accent_color">
                   <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0L7.5 7.5L15 0H0Z" fill="currentColor"/>
@@ -278,12 +278,12 @@
                 </span>
               </div>
               <div class="cs-accordian_body">
-                <p>Flutter offers hot-reload for faster development, a rich set of customizable widgets for building intuitive UIs, and a single codebase for deploying apps on both Android and iOS platforms. Its high performance, excellent documentation, and strong community support make it a popular choice for developers.</p>
+                <p>Front-end development focuses on the user interface and user experience, involving the design and functionality that users interact with directly. Back-end development deals with server-side logic, databases, and the overall functionality that happens behind the scenes.</p>
               </div>
             </div><!-- .cs-accordian -->
             <div class="cs-accordian">
               <div class="cs-accordian_head">
-                <h2 class="cs-accordian_title">How can Flutter apps handle push notifications, and how does PHP play a role in this process?</h2>
+                <h2 class="cs-accordian_title">What is a responsive design, and why is it important?</h2>
                 <span class="cs-accordian_toggle cs-accent_color">
                   <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0L7.5 7.5L15 0H0Z" fill="currentColor"/>
@@ -291,12 +291,12 @@
                 </span>
               </div>
               <div class="cs-accordian_body">
-                <p>Flutter apps can use packages like Firebase Cloud Messaging (FCM) for push notifications. PHP can be employed to send notifications to the FCM server, and then the Flutter app can use FCM to receive and display these notifications to users.</p>
+                <p>Responsive design ensures that websites adapt to different screen sizes and devices. It's crucial for providing a seamless user experience across desktops, tablets, and smartphones, improving accessibility and usability.</p>
               </div>
             </div><!-- .cs-accordian -->
             <div class="cs-accordian">
               <div class="cs-accordian_head">
-                <h2 class="cs-accordian_title">What are the common types of payment methods supported by payment gateways in mobile apps?</h2>
+                <h2 class="cs-accordian_title">What is the role of security in web development?</h2>
                 <span class="cs-accordian_toggle cs-accent_color">
                   <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0L7.5 7.5L15 0H0Z" fill="currentColor"/>
@@ -304,7 +304,7 @@
                 </span>
               </div>
               <div class="cs-accordian_body">
-                <p>Payment gateways typically support credit/debit cards, digital wallets (e.g., Apple Pay, Google Pay), bank transfers, and sometimes alternative payment methods depending on the region.</p>
+                <p>Security is paramount in web development to protect websites and user data from potential threats. Developers must follow best practices like input validation, secure coding, and implementing HTTPS to ensure a secure online environment.</p>
               </div>
             </div><!-- .cs-accordian -->
           </div><!-- .cs-accordians -->

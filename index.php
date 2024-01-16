@@ -324,7 +324,7 @@
             <div class="col-lg-3 col-sm-6 cs-hidden_mobile"></div>
             <div class="col-lg-3 col-sm-6">
               <div class="cs-hobble">
-                <a href="service-details.html" class="cs-card cs-style1 cs-hover_layer1">
+                <a href="web_development.php" class="cs-card cs-style1 cs-hover_layer1">
                   <img src="assets/img/service_4.jpeg" alt="Service">
                   <div class="cs-card_overlay"></div>
                   <div class="cs-card_info">
@@ -760,13 +760,13 @@
               <h2 class="cs-widget_title">Services</h2>
               <ul class="cs-menu_widget cs-mp0">
                 <li>
-                  <a href="#">Mobile Development</a>
+                  <a href="mobile_development.php">Mobile Development</a>
                 </li>
                 <li>
                   <a href="#">Software Development</a>
                 </li>
                 <li>
-                  <a href="#">Web Development</a>
+                  <a href="web_development.php">Web Development</a>
                 </li>
                 <li>
                   <a href="#">Design</a>
