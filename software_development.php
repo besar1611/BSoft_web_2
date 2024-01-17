@@ -146,7 +146,7 @@
   <div class="cs-page_heading cs-style1 cs-center text-center cs-bg" data-src="assets/img/service_hero_bg.jpeg">
     <div class="container">
       <div class="cs-page_heading_in">
-        <h1 class="cs-page_title cs-font_50 cs-white_color">Web Developments</h1>
+        <h1 class="cs-page_title cs-font_50 cs-white_color">Software Developments</h1>
         <ol class="breadcrumb text-uppercase">
           <li class="breadcrumb-item"><a href="index.php">Home</a></li>
           <li class="breadcrumb-item active">Service Details</li>
@@ -159,7 +159,7 @@
   <!-- Start Icon Box -->
   <div class="container">
     <div class="cs-section_heading cs-style1 text-center">
-      <h3 class="cs-section_subtitle">Web Applications</h3>
+      <h3 class="cs-section_subtitle">Windows</h3>
       <h2 class="cs-section_title">Working process</h2>
     </div>
     <div class="cs-height_90 cs-height_lg_45"></div>
@@ -173,7 +173,7 @@
             </svg>              
           </div>
           <h2 class="cs-iconbox_title">Diagramming</h2>
-          <div class="cs-iconbox_subtitle">Diagramming is an essential aspect of web development that aids in visualizing the architecture, structure, and flow of a web application. This process involves creating various diagrams to represent different aspects of the development process.</div>
+          <div class="cs-iconbox_subtitle">In the dynamic world of software development, the need for efficient tools to visualize and communicate complex ideas is more crucial than ever. Diagramming software plays a pivotal role in transforming abstract concepts into tangible representations, aiding in collaboration, problem-solving, and decision-making processes.</div>
         </div>
         <div class="cs-height_30 cs-height_lg_35"></div>
       </div>
@@ -186,7 +186,7 @@
             </svg>                            
           </div>
           <h2 class="cs-iconbox_title">Prototyping</h2>
-          <div class="cs-iconbox_subtitle">Prototyping plays a crucial role in the web development process, allowing teams to create tangible representations of the user interface and functionality before the actual development begins.</div>
+          <div class="cs-iconbox_subtitle">In the fast-paced world of software development, prototyping has emerged as a crucial phase in the creation of innovative and user-centric applications. Prototyping software facilitates the visualization and testing of ideas before committing to full-scale development, allowing teams to gather feedback, iterate rapidly, and reduce.</div>
         </div>
         <div class="cs-height_30 cs-height_lg_35"></div>
       </div>
@@ -198,8 +198,8 @@
               <path d="M32 4L53.6506 41.5H10.3494L32 4Z" fill="#FF4A17"/>
             </svg>                            
           </div>
-          <h2 class="cs-iconbox_title">Finishing the web</h2>
-          <div class="cs-iconbox_subtitle">Finishing the web development process involves several important steps to ensure that the website is ready for deployment and meets all the necessary criteria for a successful launch.</div>
+          <h2 class="cs-iconbox_title">Finishing the app</h2>
+          <div class="cs-iconbox_subtitle">As software development projects near completion, the focus shifts towards refining, optimizing, and preparing the application for a successful launch. The finalization phase is crucial in ensuring that the app is not only functional but also polished, secure, and ready for deployment.</div>
         </div>
         <div class="cs-height_30 cs-height_lg_35"></div>
       </div>
@@ -212,12 +212,13 @@
     <div class="row align-items-center">
       <div class="col-xl-5 col-lg-6">
         <div class="cs-radius_15 cs-shine_hover_1">
-          <img class="cs-radius_15 w-100" src="assets/img/webdev.jpg" alt="Service Image">
+          <img class="cs-radius_15 w-100" src="assets/img/software.jpg" alt="Service Image">
         </div>
         <div class="cs-height_0 cs-height_lg_40"></div>
       </div>
       <div class="col-lg-6 offset-xl-1">
-        <h2 class="cs-font_30_2 cs-m0">We specialize in developing secure and efficient web applications that seamlessly integrate with robust APIs built using PHP. Our expertise lies in creating visually stunning user experiences while ensuring a secure and reliable foundation for seamless data transactions. Here are the key highlights of our web development services.</h2>
+        <h2 class="cs-font_30_2 cs-m0">
+        We develop desktop applications with Visual Studio, harnessing the power of Microsoft's integrated development environment to create robust, user-friendly software tailored to meet the diverse needs of our clients. Visual Studio provides a seamless and feature-rich environment for desktop application development, empowering our team to craft applications with intuitive interfaces, advanced functionalities, and optimal performance.</h2>
         <div class="cs-height_50 cs-height_lg_30"></div>
         <div class="row">
 
@@ -244,7 +245,7 @@
           <div class="cs-accordians cs-style1">
             <div class="cs-accordian active">
               <div class="cs-accordian_head">
-                <h2 class="cs-accordian_title">What is web development?</h2>
+                <h2 class="cs-accordian_title">What is the difference between C# and VB.NET?</h2>
                 <span class="cs-accordian_toggle cs-accent_color">
                   <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0L7.5 7.5L15 0H0Z" fill="currentColor"/>
@@ -252,12 +253,12 @@
                 </span>
               </div>
               <div class="cs-accordian_body">
-                <p>Web development is the process of creating and maintaining websites or web applications. It involves designing, coding, and deploying web content that can be accessed through the internet.</p>
+                <p>C# (pronounced "C sharp") and VB.NET (Visual Basic .NET) are both programming languages developed by Microsoft for the .NET framework. The primary difference lies in syntax and coding style. C# tends to be more concise and similar to languages like C++ and Java, while VB.NET emphasizes readability and ease of use with a syntax more closely aligned with natural language.</p>
               </div>
             </div><!-- .cs-accordian -->
             <div class="cs-accordian">
               <div class="cs-accordian_head">
-                <h2 class="cs-accordian_title">What are the key technologies used in web development?</h2>
+                <h2 class="cs-accordian_title">Can I mix C# and VB.NET code in the same project?</h2>
                 <span class="cs-accordian_toggle cs-accent_color">
                   <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0L7.5 7.5L15 0H0Z" fill="currentColor"/>
@@ -265,12 +266,12 @@
                 </span>
               </div>
               <div class="cs-accordian_body">
-                <p>Common technologies include HTML, CSS, and JavaScript for front-end development, while back-end development often involves languages like PHP, Python, Ruby, or Node.js. Databases such as MySQL, PostgreSQL, and MongoDB are also essential.</p>
+                <p>While it's generally not recommended to mix languages within a project, the .NET framework supports multiple languages. You can have components or modules written in C# and others in VB.NET within the same solution. Interoperability is facilitated through the Common Intermediate Language (CIL) and the .NET runtime.</p>
               </div>
             </div><!-- .cs-accordian -->
             <div class="cs-accordian">
               <div class="cs-accordian_head">
-                <h2 class="cs-accordian_title">What is the difference between front-end and back-end development?</h2>
+                <h2 class="cs-accordian_title">What are the key features of C# and VB.NET?</h2>
                 <span class="cs-accordian_toggle cs-accent_color">
                   <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0L7.5 7.5L15 0H0Z" fill="currentColor"/>
@@ -278,12 +279,12 @@
                 </span>
               </div>
               <div class="cs-accordian_body">
-                <p>Front-end development focuses on the user interface and user experience, involving the design and functionality that users interact with directly. Back-end development deals with server-side logic, databases, and the overall functionality that happens behind the scenes.</p>
+                <p>Both languages share many features as they target the same .NET platform. Common features include garbage collection, strong typing, support for object-oriented programming, and a large standard library. C# has features like LINQ (Language-Integrated Query) and is often seen as more expressive, while VB.NET is known for its simplicity and ease of use.</p>
               </div>
             </div><!-- .cs-accordian -->
             <div class="cs-accordian">
               <div class="cs-accordian_head">
-                <h2 class="cs-accordian_title">What is a responsive design, and why is it important?</h2>
+                <h2 class="cs-accordian_title">What tools and resources are available for C# and VB.NET developers?</h2>
                 <span class="cs-accordian_toggle cs-accent_color">
                   <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0L7.5 7.5L15 0H0Z" fill="currentColor"/>
@@ -291,12 +292,12 @@
                 </span>
               </div>
               <div class="cs-accordian_body">
-                <p>Responsive design ensures that websites adapt to different screen sizes and devices. It's crucial for providing a seamless user experience across desktops, tablets, and smartphones, improving accessibility and usability.</p>
+                <p>Visual Studio is the primary IDE for C# and VB.NET development. It provides a comprehensive set of tools for coding, debugging, and testing. Additionally, there are numerous online resources, documentation, and community forums such as Stack Overflow, MSDN, and GitHub repositories where developers can find support, tutorials, and code samples.</p>
               </div>
             </div><!-- .cs-accordian -->
             <div class="cs-accordian">
               <div class="cs-accordian_head">
-                <h2 class="cs-accordian_title">What is the role of security in web development?</h2>
+                <h2 class="cs-accordian_title">Are there any notable frameworks or libraries for C# and VB.NET development?</h2>
                 <span class="cs-accordian_toggle cs-accent_color">
                   <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0L7.5 7.5L15 0H0Z" fill="currentColor"/>
@@ -304,7 +305,7 @@
                 </span>
               </div>
               <div class="cs-accordian_body">
-                <p>Security is paramount in web development to protect websites and user data from potential threats. Developers must follow best practices like input validation, secure coding, and implementing HTTPS to ensure a secure online environment.</p>
+                <p>Yes, there are several popular frameworks and libraries for both languages. For C#, some notable ones include ASP.NET for web development, Xamarin for mobile development, and Entity Framework for database interactions. VB.NET can also utilize these frameworks, and the choice often depends on the specific needs of your project.</p>
               </div>
             </div><!-- .cs-accordian -->
           </div><!-- .cs-accordians -->

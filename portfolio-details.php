@@ -378,13 +378,13 @@
               <h2 class="cs-widget_title">Services</h2>
               <ul class="cs-menu_widget cs-mp0">
                 <li>
-                  <a href="#">Mobile Development</a>
+                  <a href="mobile_development.php">Software Development</a>
                 </li>
                 <li>
-                  <a href="#">Software Development</a>
+                  <a href="software_development.php">Software Development</a>
                 </li>
                 <li>
-                  <a href="#">Web Development</a>
+                  <a href="web_development.php">Software Development</a>
                 </li>
                 <li>
                   <a href="#">Design</a>
