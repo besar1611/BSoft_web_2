@@ -228,9 +228,149 @@
       </div>
     </div>
   </section>
-  <!-- End Service Section -->
-  <div class="cs-height_150 cs-height_lg_50"></div>
-  <div class="cs-height_90 cs-height_lg_45"></div>
+    <!-- End Video Block -->
+    <div class="cs-height_145 cs-height_lg_80"></div>
+  <!-- Start services Project -->
+  <section>
+    <div class="container">
+      <div class="cs-section_heading cs-style1 text-center">
+        <h3 class="cs-section_subtitle">Services</h3>
+        <h2 class="cs-section_title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Core Services</h2>
+      </div>
+    </div>
+    <div class="cs-height_90 cs-height_lg_45"></div>
+    <div class="container">
+      <div class="cs-iconbox_3_list">
+        <div class="cs-hover_tab active">
+          <a href="service-details.html" class="cs-iconbox cs-style3">
+            <div class="cs-image_layer cs-style1 cs-size_md">
+              <div class="cs-image_layer_in">
+                <img src="assets/img/service_7.jpg" alt="Image" class="w-100 cs-radius_15">
+              </div>
+            </div>
+            <span class="cs-iconbox_icon cs-center">
+              <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z" fill="currentColor"/>
+              </svg>                  
+            </span>
+            <div class="cs-iconbox_in">
+              <h2 class="cs-iconbox_title">Web Applications</h2>
+              <div class="cs-iconbox_subtitle">Web applications are dynamic software programs accessed through web browsers, providing users with interactive and seamless experiences. They leverage the power of the internet to deliver a wide range of functionalities, from online shopping to collaborative tools, all accessible within the convenience of a web browser.</div>
+            </div>
+          </a>
+        </div>
+        <div class="cs-hover_tab">
+          <a href="service-details.html" class="cs-iconbox cs-style3">
+            <div class="cs-image_layer cs-style1 cs-size_md">
+              <div class="cs-image_layer_in">
+                <img src="assets/img/service_7.jpg" alt="Image" class="w-100 cs-radius_15">
+              </div>
+            </div>
+            <span class="cs-iconbox_icon cs-center">
+              <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z" fill="currentColor"/>
+              </svg>                  
+            </span>
+            <div class="cs-iconbox_in">
+              <h2 class="cs-iconbox_title">Mobile Applications</h2>
+              <div class="cs-iconbox_subtitle">Mobile applications, or apps, are software designed specifically for smartphones and tablets. They offer tailored solutions to meet users' needs on the go. Mobile apps can range from social networking and gaming to productivity tools, enhancing the mobile device's capabilities and providing a user-friendly interface.</div>
+            </div>
+          </a>
+        </div>
+        <div class="cs-hover_tab">
+          <a href="service-details.html" class="cs-iconbox cs-style3">
+            <div class="cs-image_layer cs-style1 cs-size_md">
+              <div class="cs-image_layer_in">
+                <img src="assets/img/service_7.jpg" alt="Image" class="w-100 cs-radius_15">
+              </div>
+            </div>
+            <span class="cs-iconbox_icon cs-center">
+              <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z" fill="currentColor"/>
+              </svg>                  
+            </span>
+            <div class="cs-iconbox_in">
+              <h2 class="cs-iconbox_title">Desktop Applications</h2>
+              <div class="cs-iconbox_subtitle">Desktop applications are software programs installed and run on personal computers or laptops. They offer robust functionality and performance, often tailored to specific operating systems. Desktop applications can be productivity tools, design software, or games, providing users with a rich and feature-packed experience on their desktop devices.</div>
+            </div>
+          </a>
+        </div>
+        <div class="cs-hover_tab">
+          <a href="service-details.html" class="cs-iconbox cs-style3">
+            <div class="cs-image_layer cs-style1 cs-size_md">
+              <div class="cs-image_layer_in">
+                <img src="assets/img/service_7.jpg" alt="Image" class="w-100 cs-radius_15">
+              </div>
+            </div>
+            <span class="cs-iconbox_icon cs-center">
+              <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z" fill="currentColor"/>
+              </svg>                  
+            </span>
+            <div class="cs-iconbox_in">
+              <h2 class="cs-iconbox_title">Logo Design</h2>
+              <div class="cs-iconbox_subtitle">Logo design is the art of creating a unique visual symbol that represents a brand or company. A well-crafted logo is memorable, versatile, and communicates the essence of a brand. It serves as a visual anchor for brand identity, fostering recognition and leaving a lasting impression on customers.</div>
+            </div>
+          </a>
+        </div>
+        <div class="cs-hover_tab">
+          <a href="service-details.html" class="cs-iconbox cs-style3">
+            <div class="cs-image_layer cs-style1 cs-size_md">
+              <div class="cs-image_layer_in">
+                <img src="assets/img/service_7.jpg" alt="Image" class="w-100 cs-radius_15">
+              </div>
+            </div>
+            <span class="cs-iconbox_icon cs-center">
+              <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z" fill="currentColor"/>
+              </svg>                  
+            </span>
+            <div class="cs-iconbox_in">
+              <h2 class="cs-iconbox_title">Logo Animation</h2>
+              <div class="cs-iconbox_subtitle">Logo animation brings logos to life by incorporating dynamic motion and visual effects. Using software like After Effects, designers can create captivating animations that enhance brand visibility and engagement. Animated logos can be used in various digital platforms, such as websites, videos, and presentations, adding an extra layer of creativity and professionalism.</div>
+            </div>
+          </a>
+        </div>
+        <div class="cs-hover_tab">
+          <a href="service-details.html" class="cs-iconbox cs-style3">
+            <div class="cs-image_layer cs-style1 cs-size_md">
+              <div class="cs-image_layer_in">
+                <img src="assets/img/service_7.jpg" alt="Image" class="w-100 cs-radius_15">
+              </div>
+            </div>
+            <span class="cs-iconbox_icon cs-center">
+              <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z" fill="currentColor"/>
+              </svg>                  
+            </span>
+            <div class="cs-iconbox_in">
+              <h2 class="cs-iconbox_title">Brochure / Flyer Design</h2>
+              <div class="cs-iconbox_subtitle">Brochures and flyers are tangible marketing materials used to convey information about products, services, or events. Design plays a crucial role in capturing attention and conveying the message effectively. A well-designed brochure or flyer combines visually appealing graphics, concise content, and strategic layout to engage the target audience and leave a lasting impression.</div>
+            </div>
+          </a>
+        </div>
+        <div class="cs-hover_tab">
+          <a href="service-details.html" class="cs-iconbox cs-style3">
+            <div class="cs-image_layer cs-style1 cs-size_md">
+              <div class="cs-image_layer_in">
+                <img src="assets/img/service_7.jpg" alt="Image" class="w-100 cs-radius_15">
+              </div>
+            </div>
+            <span class="cs-iconbox_icon cs-center">
+              <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M29.3803 3.05172C29.4089 1.94752 28.537 1.02921 27.4328 1.00062L9.43879 0.534749C8.33459 0.506159 7.41628 1.37811 7.38769 2.48231C7.35911 3.58651 8.23106 4.50482 9.33526 4.53341L25.3299 4.94752L24.9158 20.9422C24.8872 22.0464 25.7592 22.9647 26.8634 22.9933C27.9676 23.0218 28.8859 22.1499 28.9144 21.0457L29.3803 3.05172ZM3.37714 28.5502L28.7581 4.4503L26.0039 1.54961L0.622863 25.6495L3.37714 28.5502Z" fill="currentColor"/>
+              </svg>                  
+            </span>
+            <div class="cs-iconbox_in">
+              <h2 class="cs-iconbox_title">Branding</h2>
+              <div class="cs-iconbox_subtitle">Branding is the process of creating a distinct and memorable identity for a product, service, or company. It encompasses various elements, including logo design, color schemes, typography, and messaging, to convey a consistent and cohesive image. Effective branding builds trust, fosters recognition, and sets a business apart in the competitive market, contributing to long-term success.</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="cs-height_50 cs-height_lg_50"></div>
+    </div>
+  </section>
   <!-- Start Pricing Plan -->
   <!-- <section>
     <div class="container">
