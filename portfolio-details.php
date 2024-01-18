@@ -387,7 +387,7 @@
                   <a href="web_development.php">Software Development</a>
                 </li>
                 <li>
-                  <a href="#">Design</a>
+                  <a href="digital_marketing.php">Digital</a>
                 </li>
               </ul>
             </div>

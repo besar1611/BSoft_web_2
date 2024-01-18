@@ -154,7 +154,7 @@
   <div class="cs-page_heading cs-style1 cs-center text-center cs-bg" data-src="assets/img/service_hero_bg.jpeg">
     <div class="container">
       <div class="cs-page_heading_in">
-        <h1 class="cs-page_title cs-font_50 cs-white_color">Mobile Developments</h1>
+        <h1 class="cs-page_title cs-font_50 cs-white_color">Digital Marketing</h1>
         <ol class="breadcrumb text-uppercase">
           <li class="breadcrumb-item"><a href="index.php">Home</a></li>
           <li class="breadcrumb-item active">Service Details</li>
@@ -167,25 +167,12 @@
   <!-- Start Icon Box -->
   <div class="container">
     <div class="cs-section_heading cs-style1 text-center">
-      <h3 class="cs-section_subtitle">iOS & Android</h3>
+      <h3 class="cs-section_subtitle">Design</h3>
       <h2 class="cs-section_title">Working process</h2>
     </div>
     <div class="cs-height_90 cs-height_lg_45"></div>
     <div class="row">
-      <div class="col-lg-4">
-        <div class="cs-iconbox cs-style2 text-center">
-          <div class="cs-iconbox_icon">
-            <svg width="58" height="57" viewBox="0 0 58 57" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.75" y="0.75" width="48.5" height="48.5" rx="4.25" stroke="#999696" stroke-width="1.5" stroke-dasharray="3 3"/>
-              <rect x="8" y="7" width="50" height="50" rx="5" fill="#FF4A17"/>
-            </svg>              
-          </div>
-          <h2 class="cs-iconbox_title">Diagramming</h2>
-          <div class="cs-iconbox_subtitle">In the dynamic landscape of mobile app development, diagramming plays a pivotal role in conceptualizing, designing, and communicating the architecture and functionality of applications.</div>
-        </div>
-        <div class="cs-height_30 cs-height_lg_35"></div>
-      </div>
-      <div class="col-lg-4">
+      <div class="col-lg-6">
         <div class="cs-iconbox cs-style2 text-center">
           <div class="cs-iconbox_icon">
             <svg width="58" height="57" viewBox="0 0 58 57" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -194,11 +181,11 @@
             </svg>                            
           </div>
           <h2 class="cs-iconbox_title">Prototyping</h2>
-          <div class="cs-iconbox_subtitle">Prototyping is a crucial phase in mobile app development, allowing teams to iterate on design concepts, gather feedback, and refine the user experience before the actual development begins.</div>
+          <div class="cs-iconbox_subtitle">Prototyping plays a pivotal role in the design and development process, serving as a tangible manifestation of creative ideas and a crucial step towards innovation. Whether designing a product, website, or user interface, the prototyping phase allows designers to test and refine their concepts, ensuring that the final product meets user needs and expectations.</div>
         </div>
         <div class="cs-height_30 cs-height_lg_35"></div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-6">
         <div class="cs-iconbox cs-style2 text-center">
           <div class="cs-iconbox_icon">
             <svg width="57" height="54" viewBox="0 0 57 54" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -206,8 +193,8 @@
               <path d="M32 4L53.6506 41.5H10.3494L32 4Z" fill="#FF4A17"/>
             </svg>                            
           </div>
-          <h2 class="cs-iconbox_title">Finishing the app</h2>
-          <div class="cs-iconbox_subtitle">As your mobile app nears completion, it's crucial to focus on the finishing touches to ensure a seamless and polished end product.</div>
+          <h2 class="cs-iconbox_title">Finishing the design</h2>
+          <div class="cs-iconbox_subtitle">As a design progresses from the prototyping phase, the focus shifts to the meticulous process of finishing. This stage is crucial for transforming prototypes into polished, user-friendly, and market-ready products. Finishing the design involves attention to detail, optimization, and a commitment to delivering a seamless user experience.</div>
         </div>
         <div class="cs-height_30 cs-height_lg_35"></div>
       </div>
@@ -220,12 +207,13 @@
     <div class="row align-items-center">
       <div class="col-xl-5 col-lg-6">
         <div class="cs-radius_15 cs-shine_hover_1">
-          <img class="cs-radius_15 w-100" src="assets/img/flutter.jpg" alt="Service Image">
+          <img class="cs-radius_15 w-100" src="assets/img/design.jpg" alt="Service Image">
         </div>
         <div class="cs-height_0 cs-height_lg_40"></div>
       </div>
       <div class="col-lg-6 offset-xl-1">
-        <h2 class="cs-font_30_2 cs-m0">We specialize in crafting secure mobile apps with Flutter, leveraging its single-codebase efficiency. Our applications seamlessly integrate with robust APIs built using PHP, ensuring not only a visually stunning experience but also a secure and reliable foundation for seamless data transactions.</h2>
+        <h2 class="cs-font_30_2 cs-m0">
+        Design is a multifaceted discipline that encompasses a variety of mediums, each requiring unique skills and approaches. From crafting memorable logos to dynamic motion graphics in After Effects, designers navigate a diverse landscape to create visually compelling and effective communication. This text explores the nuanced processes involved in logo design, working with After Effects, and the broader principles that underpin successful design endeavors.</h2>
         <div class="cs-height_50 cs-height_lg_30"></div>
         <div class="row">
 
@@ -252,7 +240,7 @@
           <div class="cs-accordians cs-style1">
             <div class="cs-accordian active">
               <div class="cs-accordian_head">
-                <h2 class="cs-accordian_title">What is Flutter, and how does it contribute to mobile app development?</h2>
+                <h2 class="cs-accordian_title">What are Smart Objects, and how do they work?</h2>
                 <span class="cs-accordian_toggle cs-accent_color">
                   <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0L7.5 7.5L15 0H0Z" fill="currentColor"/>
@@ -260,12 +248,12 @@
                 </span>
               </div>
               <div class="cs-accordian_body">
-                <p>Flutter is an open-source UI software development toolkit created by Google. It is used to build natively compiled applications for mobile, web, and desktop from a single codebase. Flutter simplifies the development process by providing a consistent and expressive framework for building cross-platform apps with a rich set of pre-designed widgets.</p>
+                <p>Smart Objects in Photoshop are layers that contain raster or vector image data. They allow for non-destructive editing by preserving the original content. Double-clicking a Smart Object opens it in a separate window for editing.</p>
               </div>
             </div><!-- .cs-accordian -->
             <div class="cs-accordian">
               <div class="cs-accordian_head">
-                <h2 class="cs-accordian_title">How does PHP integrate with Flutter for mobile app development?</h2>
+                <h2 class="cs-accordian_title">What is After Effects, and how is it different from Photoshop?</h2>
                 <span class="cs-accordian_toggle cs-accent_color">
                   <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0L7.5 7.5L15 0H0Z" fill="currentColor"/>
@@ -273,12 +261,12 @@
                 </span>
               </div>
               <div class="cs-accordian_body">
-                <p>PHP can be used as the backend server language to handle data storage, retrieval, and business logic for Flutter mobile apps. Flutter apps can communicate with PHP servers through HTTP requests (RESTful APIs) to fetch and send data. This separation allows for a clear distinction between the frontend (Flutter) and backend (PHP) components of the application.</p>
+                <p>After Effects is a motion graphics and visual effects software also developed by Adobe. While Photoshop focuses on static images, After Effects is used for creating dynamic motion graphics, animations, and visual effects.</p>
               </div>
             </div><!-- .cs-accordian -->
             <div class="cs-accordian">
               <div class="cs-accordian_head">
-                <h2 class="cs-accordian_title">What are the key advantages of using Flutter for mobile app development?</h2>
+                <h2 class="cs-accordian_title">Can I integrate Photoshop files into After Effects?</h2>
                 <span class="cs-accordian_toggle cs-accent_color">
                   <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0L7.5 7.5L15 0H0Z" fill="currentColor"/>
@@ -286,12 +274,12 @@
                 </span>
               </div>
               <div class="cs-accordian_body">
-                <p>Flutter offers hot-reload for faster development, a rich set of customizable widgets for building intuitive UIs, and a single codebase for deploying apps on both Android and iOS platforms. Its high performance, excellent documentation, and strong community support make it a popular choice for developers.</p>
+                <p>Yes, After Effects seamlessly integrates with Photoshop files. You can import PSD files directly into After Effects, preserving layers, masks, and other Photoshop attributes for further animation and manipulation.</p>
               </div>
             </div><!-- .cs-accordian -->
             <div class="cs-accordian">
               <div class="cs-accordian_head">
-                <h2 class="cs-accordian_title">How can Flutter apps handle push notifications, and how does PHP play a role in this process?</h2>
+                <h2 class="cs-accordian_title">What is the primary purpose of Adobe Photoshop in design?</h2>
                 <span class="cs-accordian_toggle cs-accent_color">
                   <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0L7.5 7.5L15 0H0Z" fill="currentColor"/>
@@ -299,12 +287,12 @@
                 </span>
               </div>
               <div class="cs-accordian_body">
-                <p>Flutter apps can use packages like Firebase Cloud Messaging (FCM) for push notifications. PHP can be employed to send notifications to the FCM server, and then the Flutter app can use FCM to receive and display these notifications to users.</p>
+                <p>Adobe Photoshop is a versatile graphic design software used for photo editing, digital painting, and creating visually engaging designs. It's widely employed for tasks such as image manipulation, retouching, and the creation of web graphics.</p>
               </div>
             </div><!-- .cs-accordian -->
             <div class="cs-accordian">
               <div class="cs-accordian_head">
-                <h2 class="cs-accordian_title">What are the common types of payment methods supported by payment gateways in mobile apps?</h2>
+                <h2 class="cs-accordian_title">How can I ensure my designs are print-ready in Photoshop?</h2>
                 <span class="cs-accordian_toggle cs-accent_color">
                   <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 0L7.5 7.5L15 0H0Z" fill="currentColor"/>
@@ -312,7 +300,7 @@
                 </span>
               </div>
               <div class="cs-accordian_body">
-                <p>Payment gateways typically support credit/debit cards, digital wallets (e.g., Apple Pay, Google Pay), bank transfers, and sometimes alternative payment methods depending on the region.</p>
+                <p>To ensure print readiness, set the document resolution to at least 300 DPI (dots per inch), use the CMYK color mode, and consider bleed and margin settings based on your print specifications.</p>
               </div>
             </div><!-- .cs-accordian -->
           </div><!-- .cs-accordians -->

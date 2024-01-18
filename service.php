@@ -197,7 +197,7 @@
             </div>
             <div class="col-lg-3 col-sm-6">
               <div class="cs-hobble">
-                <a href="service-details.html" class="cs-card cs-style1 cs-hover_layer1">
+                <a href="digital_marketing.php" class="cs-card cs-style1 cs-hover_layer1">
                   <img src="assets/img/service_3.jpeg" alt="Service">
                   <div class="cs-card_overlay"></div>
                   <div class="cs-card_info">
@@ -956,7 +956,7 @@
                   <a href="web_development.php">Software Development</a>
                 </li>
                 <li>
-                  <a href="#">Design</a>
+                  <a href="digital_marketing.php">Digital</a>
                 </li>
               </ul>
             </div>
