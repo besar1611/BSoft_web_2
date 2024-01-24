@@ -79,30 +79,33 @@
                           <div class="mb-3">
                             <label class="form-label">Header Image</label>
                             <input id="inputImage" type="file" class="form-control" name="header_image"
-                              id="header_image" placeholder="Image">
+                              placeholder="Image">
+                          </div>
+                          <div class="mb-3">
+                            <label class="form-label">Main Header Image</label>
+                            <input id="inputImage" type="file" class="form-control" name="main_header_image"
+                              id="main_header_image" placeholder="Image">
                           </div>
                           <div class="mb-3">
                             <label class="form-label">Text <span id="charCount"
-                                class="form-label-description">0/1000</span></label>
+                                class="form-label-description">0/2000</span></label>
                             <textarea class="form-control" name="example-textarea-input" id="exampleTextarea" rows="6"
-                              placeholder="Content.." maxlength="1000"></textarea>
+                              placeholder="Content.." maxlength="2000"></textarea>
                           </div>
                           <div class="mb-3">
                             <div class="form-label">Platform</div>
-                            <select class="form-select" name="category" id="category">
+                            <select class="form-select" name="platform" id="platform">
                               <option value="Web">Web</option>
                               <option value="Windows">Windows</option>
                               <option value="iOS & Android">iOS & Android</option>
                               <option value="Design">Design</option>
                             </select>
                           </div>
-
                           <div class="mb-3">
                             <label class="form-label">Project Images</label>
                             <input type="file" class="form-control" name="multipleimages[]" id="multipleimages" multiple
                               accept="image/*">
                           </div>
-
                           <div id="imagePreview" class="mb-3"></div>
                         </div>
                       </div>
@@ -116,6 +119,7 @@
                   </div>
                 </div>
               </form>
+
             </div>
           </div>
         </div>
@@ -221,7 +225,7 @@
       });
     });
   </script>
-  
+
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var imageInput = document.getElementById("multipleimages"); // Update the id here

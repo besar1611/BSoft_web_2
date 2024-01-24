@@ -200,7 +200,7 @@
             </h2>
             <div class="cs-height_40 cs-height_lg_20"></div>
             <p style="text-align: justify; white-space: pre-line;">
-              <?php echo $row['portfolio_text']; ?>
+              <?php echo nl2br($row['portfolio_text']); ?>
             </p>
           </div>
         </div>

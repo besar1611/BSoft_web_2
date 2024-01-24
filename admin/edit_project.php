@@ -49,24 +49,50 @@
         <div class="container-xl">
           <div class="row row-cards">
             <div class="col-12">
-
               <?php
-              // Database connection
+              require_once('auth.php');
               require_once('../mysqli_connect.php');
 
-              // Fetch data for specific ID from projects_t table
-              $id = $_GET['id']; // Assuming the ID is passed through the URL parameter
-              $query = "SELECT * FROM projects_t WHERE id = $id";
-              $result = mysqli_query($conn, $query);
-              $row = mysqli_fetch_assoc($result);
+              // Check the database connection
+              if (!$conn) {
+                die("Connection failed: " . mysqli_connect_error());
+              }
 
-              // Fetch images for the same ID from images_t table
-              $imageQuery = "SELECT * FROM images_t WHERE project_id = $id";
-              $imageResult = mysqli_query($conn, $imageQuery);
-              $images = mysqli_fetch_all($imageResult, MYSQLI_ASSOC);
+              // Retrieve the project ID from the URL
+              $projectId = isset($_GET['id']) ? $_GET['id'] : null;
+
+              // Validate the project ID (add your validation logic if needed)
+              if (!$projectId || !is_numeric($projectId)) {
+                die("Invalid project ID");
+              }
+
+              // Fetch data from the database based on the project ID
+              $sql = "SELECT * FROM portfolio_t WHERE id = $projectId";
+              $result = mysqli_query($conn, $sql);
+
+              if ($result && mysqli_num_rows($result) > 0) {
+                $row = mysqli_fetch_assoc($result);
+
+                // Fetch values from the database
+                $title = $row['title'];
+                $category = $row['category'];
+                $portfolioImage = $row['image_src'];
+                $headerImage = $row['header_image'];
+                $mainHeaderImage = $row['main_header_image'];
+                $text = $row['portfolio_text'];
+                $platform = $row['platform'];
+
+                // Close the result set
+                mysqli_free_result($result);
+              } else {
+                echo "Error fetching project details: " . mysqli_error($conn);
+              }
+
+              // Close the connection
+              mysqli_close($conn);
               ?>
 
-              <form action="update_project.php?id=<?php echo $id; ?>" method="POST" class="card" enctype="multipart/form-data">
+              <form action="update_project.php" method="POST" class="card" enctype="multipart/form-data">
                 <div class="card-header">
                   <h4 class="card-title">Project</h4>
                 </div>
@@ -78,41 +104,36 @@
                           <div class="mb-3">
                             <label class="form-label">Title</label>
                             <input type="text" class="form-control" name="title" id="title" placeholder="Title"
-                              value="<?= $row['title'] ?>">
+                              value="<?php echo $title; ?>">
                           </div>
                           <div class="mb-3">
                             <div class="form-label">Category</div>
                             <select class="form-select" name="category" id="category">
-                              <option value="Architecture">Architecture</option>
-                              <option value="Interior">Interior</option>
-                              <option value="Construction">Construction</option>
+                              <option value="web_design" <?php echo ($category === 'web_design') ? 'selected' : ''; ?>>Web
+                                Development</option>
+                              <option value="desktop_apps" <?php echo ($category === 'desktop_apps') ? 'selected' : ''; ?>>Desktop App</option>
+                              <option value="mobile_apps" <?php echo ($category === 'mobile_apps') ? 'selected' : ''; ?>>
+                                Mobile App</option>
+                              <option value="logo_design" <?php echo ($category === 'logo_design') ? 'selected' : ''; ?>>
+                                Logo Design</option>
                             </select>
                           </div>
                           <div class="mb-3">
-                            <label class="form-label">Client Name</label>
-                            <input type="text" class="form-control" name="clientname" id="clientname"
-                              placeholder="Client Name" value="<?= $row['client_name'] ?>">
-                          </div>
-                          <div class="mb-3">
-                            <label class="form-label">Address</label>
-                            <input type="text" class="form-control" name="address" id="address" placeholder="Address"
-                              value="<?= $row['address'] ?>">
-                          </div>
-                          <div class="mb-3">
-                            <label class="form-label">Area</label>
-                            <input type="text" class="form-control" name="area" id="area" placeholder="Area"
-                              value="<?= $row['area'] ?>">
-                          </div>
-                          <div class="mb-3">
-                            <label class="form-label">Header Text</label>
-                            <input type="text" class="form-control" name="headertext" id="headertext"
-                              placeholder="Header Text" value="<?= $row['height_text'] ?>">
-                          </div>
-                          <div class="mb-3">
                             <label class="form-label">Text <span id="charCount"
-                                class="form-label-description">0/1000</span></label>
-                            <textarea class="form-control" name="exampleTextarea" id="exampleTextarea" rows="6"
-                              placeholder="Content.." maxlength="1000"><?= $row['text'] ?></textarea>
+                                class="form-label-description">0/2000</span></label>
+                            <textarea class="form-control" name="example-textarea-input" id="exampleTextarea" rows="6"
+                              placeholder="Content.." maxlength="2000"><?php echo $text; ?></textarea>
+                          </div>
+                          <div class="mb-3">
+                            <div class="form-label">Platform</div>
+                            <select class="form-select" name="platform" id="platform">
+                              <option value="Web" <?php echo ($platform === 'Web') ? 'selected' : ''; ?>>Web</option>
+                              <option value="Windows" <?php echo ($platform === 'Windows') ? 'selected' : ''; ?>>Windows
+                              </option>
+                              <option value="iOS & Android" <?php echo ($platform === 'iOS & Android') ? 'selected' : ''; ?>>iOS & Android</option>
+                              <option value="Design" <?php echo ($platform === 'Design') ? 'selected' : ''; ?>>Design
+                              </option>
+                            </select>
                           </div>
 
                         </div>
@@ -127,11 +148,11 @@
                   </div>
                 </div>
               </form>
+
             </div>
           </div>
         </div>
       </div>
-
       <footer class="footer footer-transparent d-print-none">
         <div class="container-xl">
           <div class="row text-center align-items-center flex-row-reverse">
@@ -140,13 +161,8 @@
                 <li class="list-inline-item">
                   Copyright &copy;
                   <script>document.write(new Date().getFullYear())</script>
-                  <a href="." class="link-secondary">TereStudio</a>.
+                  <a href="." class="link-secondary">BSoft</a>.
                   All rights reserved.
-                </li>
-                <li class="list-inline-item">
-                  <a href="https://bsoft.mk" target="_blank" class="link-secondary" rel="noopener">
-                    Developed by: BSoft
-                  </a>
                 </li>
               </ul>
             </div>
@@ -225,17 +241,23 @@
       });
     });
   </script>
+
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       var textarea = document.getElementById("exampleTextarea");
       var charCountSpan = document.getElementById("charCount");
 
+      // Initial update on page load
+      updateCharCount();
+
       // Update character count on input
-      textarea.addEventListener("input", function () {
+      textarea.addEventListener("input", updateCharCount);
+
+      function updateCharCount() {
         var currentCount = textarea.value.length;
         var maxCount = textarea.getAttribute("maxlength");
         charCountSpan.textContent = currentCount + "/" + maxCount;
-      });
+      }
     });
   </script>
 

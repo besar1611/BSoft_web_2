@@ -41,37 +41,61 @@
         if (isset($_SESSION['successMessage'])) {
           $successMessage = $_SESSION['successMessage'];
 
-          // Add this code for the toast message
           echo '<div class="toast-container position-fixed top-8 end-0 p-3" style="z-index: 1050">
-                        <div id="toastSuccess" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
-                          <div class="toast-header bg-success text-white">
-                            <i class="bx bx-check-circle me-2"></i>
-                            <strong class="me-auto">Success</strong>
-                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                          </div>
-                          <div class="toast-body">
-                            ' . $successMessage . '
-                          </div>
-                        </div>
-                      </div>';
+            <div id="toastSuccess" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
+              <div class="toast-header bg-success text-white">
+                <i class="bx bx-check-circle me-2"></i>
+                <strong class="me-auto">Success</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+              </div>
+              <div class="toast-body">
+                ' . $successMessage . '
+              </div>
+            </div>
+          </div>';
           echo '<script>
-                        document.addEventListener("DOMContentLoaded", function() {
-                          var toast = document.getElementById("toastSuccess");
-                          var toastInstance = new bootstrap.Toast(toast);
-                          toastInstance.show();
+            document.addEventListener("DOMContentLoaded", function() {
+              var toast = document.getElementById("toastSuccess");
+              var toastInstance = new bootstrap.Toast(toast);
+              toastInstance.show();
+              setTimeout(function() {
+                toastInstance.hide();
+              }, 3000);
+            });
+          </script>';
 
-                          // Automatically hide the toast after 3 seconds
-                          setTimeout(function() {
-                            toastInstance.hide();
-                          }, 3000);
-                        });
-                      </script>';
-
-          // Remove the success message from the session to avoid displaying it again
           unset($_SESSION['successMessage']);
+        } elseif (isset($_SESSION['errorMessage'])) {
+          $errorMessage = $_SESSION['errorMessage'];
+
+          echo '<div class="toast-container position-fixed top-8 end-0 p-3" style="z-index: 1050">
+            <div id="toastError" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
+              <div class="toast-header bg-danger text-white">
+                <i class="bx bx-x-circle me-2"></i>
+                <strong class="me-auto">Error</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+              </div>
+              <div class="toast-body">
+                ' . $errorMessage . '
+              </div>
+            </div>
+          </div>';
+          echo '<script>
+            document.addEventListener("DOMContentLoaded", function() {
+              var toast = document.getElementById("toastError");
+              var toastInstance = new bootstrap.Toast(toast);
+              toastInstance.show();
+              setTimeout(function() {
+                toastInstance.hide();
+              }, 3000);
+            });
+          </script>';
+
+          unset($_SESSION['errorMessage']);
         }
         ?>
       </div>
+
 
 
       <!-- Page header -->
@@ -141,30 +165,30 @@
                   <?php
                   // Loop through the data and populate the table rows
                   while ($row = $result->fetch_assoc()) {
-                    echo "<tr>
-                            <td><a href='../portfolio-details.php?id=" . $row['id'] . "' class='text-reset' tabindex='-1' target='_blank'>" . $row['title'] . "</a></td>
-                            <td>" . $row['category_text'] . "</td>
-                            <td>" . $row['platform'] . "</td>
-                            <td><img src='" . $row['header_image'] . "' alt='Image' style='max-width: 75px; max-height: 75px;'></td>
-                            <td class='text-start'>
-                                <span class='dropdown'>
-                                    <button class='btn dropdown-toggle align-text-top' data-bs-boundary='viewport'
-                                        data-bs-toggle='dropdown' data-bs-placement='left'>Actions</button>
-                                    <div class='dropdown-menu dropdown-menu-start'>
-                                        <a class='dropdown-item' href='edit_project.php?id=" . $row['id'] . "'>
-                                            Edit
-                                        </a>
-                                        <a class='dropdown-item' href='delete_project.php?id=" . $row['id'] . "'>
-                                            Delete
-                                        </a>
-                                    </div>
-                                </span>
-                            </td>
-                          </tr>";
+                          echo "<tr>
+                      <td><a href='../portfolio-details.php?id=" . $row['id'] . "' class='text-reset' tabindex='-1' target='_blank'>" . $row['title'] . "</a></td>
+                      <td>" . $row['category_text'] . "</td>
+                      <td>" . $row['platform'] . "</td>
+                      <td><img src='" . $row['header_image'] . "' alt='Image' style='max-width: 75px; max-height: 75px;'></td>
+                      <td class='text-start'>
+                          <span class='dropdown'>
+                              <button class='btn dropdown-toggle align-text-top' data-bs-boundary='viewport' data-bs-toggle='dropdown' data-bs-placement='left'>Actions</button>
+                              <div class='dropdown-menu dropdown-menu-start'>
+                                  <a class='dropdown-item' href='edit_project.php?id=" . $row['id'] . "'>
+                                      Edit
+                                  </a>
+                                  <a class='dropdown-item' href='delete_project.php?id=" . $row['id'] . "'>
+                                      Delete
+                                  </a>
+                              </div>
+                          </span>
+                      </td>
+                    </tr>";
                   }
-
                   ?>
                 </tbody>
+
+
               </table>
             </div>
             <div class="card-footer d-flex align-items-center">
@@ -229,7 +253,7 @@
       });
     })
   </script>
-  
+
 </body>
 
 </html>
