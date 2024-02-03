@@ -81,6 +81,7 @@
                 $mainHeaderImage = $row['main_header_image'];
                 $text = $row['portfolio_text'];
                 $platform = $row['platform'];
+                $download_link = $row['download_link'];
 
                 // Close the result set
                 mysqli_free_result($result);
@@ -92,7 +93,7 @@
               mysqli_close($conn);
               ?>
 
-              <form action="update_project.php" method="POST" class="card" enctype="multipart/form-data">
+              <form action="update_project.php?id=<?php echo $projectId; ?>" method="POST" class="card" enctype="multipart/form-data">
                 <div class="card-header">
                   <h4 class="card-title">Project</h4>
                 </div>
@@ -134,6 +135,11 @@
                               <option value="Design" <?php echo ($platform === 'Design') ? 'selected' : ''; ?>>Design
                               </option>
                             </select>
+                          </div>
+                          <div class="mb-3">
+                            <label class="form-label">Download Link</label>
+                            <input type="text" class="form-control" name="download_link" id="download_link" placeholder="Download Link"
+                              value="<?php echo $download_link; ?>">
                           </div>
 
                         </div>

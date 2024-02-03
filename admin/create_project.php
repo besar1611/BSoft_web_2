@@ -102,6 +102,10 @@
                             </select>
                           </div>
                           <div class="mb-3">
+                            <label class="form-label">Download Link</label>
+                            <input type="text" class="form-control" name="download_link" id="download_link" placeholder="Download Link">
+                          </div>
+                          <div class="mb-3">
                             <label class="form-label">Project Images</label>
                             <input type="file" class="form-control" name="multipleimages[]" id="multipleimages" multiple
                               accept="image/*">

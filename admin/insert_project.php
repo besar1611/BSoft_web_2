@@ -14,6 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $category = mysqli_real_escape_string($conn, $_POST['category']);
     $platform = mysqli_real_escape_string($conn, $_POST['platform']);
     $text = mysqli_real_escape_string($conn, $_POST['example-textarea-input']);
+    $download_link = mysqli_real_escape_string($conn, $_POST['download_link']);
 
     // File upload directory for portfolio_image and main_header_image
     $portfolioImageDirectory = 'upload/portfolio/';
@@ -55,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Insert data into the portfolio table
-    $sql = "INSERT INTO portfolio_t (title, category, image_src, header_image, portfolio_text, category_text, platform, main_header_image) VALUES ('$title', '$category', '$portfolioImageTarget', '$headerImageTarget', '$text', '$categoryText', '$platform', '$mainHeaderImageTarget')";
+    $sql = "INSERT INTO portfolio_t (title, category, image_src, header_image, portfolio_text, category_text, platform, main_header_image, download_link) VALUES ('$title', '$category', '$portfolioImageTarget', '$headerImageTarget', '$text', '$categoryText', '$platform', '$mainHeaderImageTarget', '$download_link')";
 
     if (mysqli_query($conn, $sql)) {
         // Get the last inserted portfolio_id

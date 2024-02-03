@@ -165,7 +165,7 @@
                   <?php
                   // Loop through the data and populate the table rows
                   while ($row = $result->fetch_assoc()) {
-                          echo "<tr>
+                    echo "<tr>
                       <td><a href='../portfolio-details.php?id=" . $row['id'] . "' class='text-reset' tabindex='-1' target='_blank'>" . $row['title'] . "</a></td>
                       <td>" . $row['category_text'] . "</td>
                       <td>" . $row['platform'] . "</td>
@@ -173,7 +173,10 @@
                       <td class='text-start'>
                           <span class='dropdown'>
                               <button class='btn dropdown-toggle align-text-top' data-bs-boundary='viewport' data-bs-toggle='dropdown' data-bs-placement='left'>Actions</button>
-                              <div class='dropdown-menu dropdown-menu-start'>
+                              <div class='dropdown-menu dropdown-menu-start'>            
+                                  <a class='dropdown-item' href='" . $row['download_link'] . "'>
+                                      Download
+                                  </a>       
                                   <a class='dropdown-item' href='edit_project.php?id=" . $row['id'] . "'>
                                       Edit
                                   </a>

@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
      // Validate the project ID (add your validation logic if needed)
      if (!$projectId || !is_numeric($projectId)) {
-    //    // Invalid ID, redirect to the confirmation page
+       // Invalid ID, redirect to the confirmation page
     //    header('Cache-Control: no-cache, must-revalidate');
     //    $_SESSION['errorMessage'] = "Invalid ID.";
     //    header('Location: projects.php');
@@ -29,6 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $category = mysqli_real_escape_string($conn, $_POST['category']);
     $platform = mysqli_real_escape_string($conn, $_POST['platform']);
     $text = mysqli_real_escape_string($conn, $_POST['example-textarea-input']);
+    $download_link = mysqli_real_escape_string($conn, $_POST['download_link']);
 
     // Modify category_text based on the selected category
     $categoryText = '';
@@ -51,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Update data in the portfolio table
-    $sql = "UPDATE portfolio_t SET title='$title', category='$category', portfolio_text='$text', category_text='$categoryText', platform='$platform' WHERE id='$projectId'";
+    $sql = "UPDATE portfolio_t SET title='$title', category='$category', portfolio_text='$text', category_text='$categoryText', platform='$platform', download_link='$download_link' WHERE id='$projectId'";
 
     if (mysqli_query($conn, $sql)) {
         // Update successful, redirect to the confirmation page
